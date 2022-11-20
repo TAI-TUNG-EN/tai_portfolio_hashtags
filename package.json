@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "",
-  "homepage": "https://yihanyozikua.github.io/tai_portfolio_hashtags/",
+  "homepage": "https://TAI-TUNG-EN.github.io/tai_portfolio_hashtags/",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
