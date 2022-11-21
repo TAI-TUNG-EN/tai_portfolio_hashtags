@@ -542,7 +542,9 @@ window.scrollTo({
     behavior: "smooth"
 });
 // Preload images then remove loader (loading class) from body
-(0, _utils.preloadImages)(".grid__cell-img-inner, .slide-nav__img", ".footer_container").then(()=>document.body.classList.remove("loading"));
+setTimeout(()=>{
+    (0, _utils.preloadImages)(".grid__cell-img-inner, .slide-nav__img", ".footer_container").then(()=>document.body.classList.remove("loading"));
+}, 2000);
 
 },{"./utils":"72Dku","./grid":"5bMWt"}],"72Dku":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
