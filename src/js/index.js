@@ -12,4 +12,6 @@ window.scrollTo({
 });
 
 // Preload images then remove loader (loading class) from body
-preloadImages('.grid__cell-img-inner, .slide-nav__img', '.footer_container').then(() => document.body.classList.remove('loading'));
+setTimeout(() => {
+  preloadImages('.grid__cell-img-inner, .slide-nav__img', '.footer_container').then(() => document.body.classList.remove('loading'));
+}, (2000));
