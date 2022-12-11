@@ -17,6 +17,8 @@ body {
   --color-link: #000;
   --color-link-hover: #000;
   --color-hashtag-title: #3f729b;
+  --color-black: #282d2f;
+  --color-gray: #858a8b;
   color: var(--color-text);
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
@@ -1125,14 +1127,21 @@ a:focus-visible {
     justify-content: center;
     align-items: center;
     margin: 0 1.5rem;
-    padding: .7rem 1rem;
+    padding: 1.2rem 1.1rem;
     font-family: Outfit, sans-serif;
-    font-size: .7rem;
+    font-size: .85rem;
     font-weight: 400;
+    transition: all .3s ease-in-out;
     display: flex;
     position: absolute;
     top: 5vh;
     box-shadow: -3px 4px 100px -11px gray;
+  }
+
+  .back_to_about:hover {
+    background-color: var(--color-black);
+    color: #fff;
+    transition: all .3s ease-in-out;
   }
 
   .content {
