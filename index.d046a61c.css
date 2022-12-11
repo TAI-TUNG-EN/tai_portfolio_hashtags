@@ -1160,11 +1160,11 @@ a:focus-visible {
   }
 
   .footer_top_container {
-    width: 65%;
+    width: 78%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
     display: flex;
   }
 
@@ -1180,14 +1180,15 @@ a:focus-visible {
     color: #dbdfe0;
     letter-spacing: 0;
     text-align: left;
+    white-space: nowrap;
     font-family: Outfit, sans-serif;
-    font-size: 80px;
+    font-size: 4.3rem;
     font-weight: 300;
-    line-height: 101px;
+    line-height: 5.5rem;
   }
 
   .footer_nav_container {
-    width: 30%;
+    width: 32%;
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
@@ -1200,24 +1201,21 @@ a:focus-visible {
     color: #dbdfe0;
     letter-spacing: 0;
     text-align: left;
+    margin-bottom: 1rem;
     font-family: Outfit, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.5rem;
     transition: all .3s ease-in-out;
   }
 
   .footer_nav_prop:nth-child(2) {
-    font-size: .9rem;
-  }
-
-  .footer_nav_prop:nth-child(3) {
-    margin-top: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .footer_nav_prop:nth-child(4) {
     margin-top: 7rem;
-    font-size: .9rem;
+    font-size: 1.2rem;
     text-decoration: underline;
   }
 
@@ -1228,12 +1226,12 @@ a:focus-visible {
   }
 
   .footer_divider {
-    width: 65%;
+    width: 78%;
     border-bottom: 1px solid #858a8b;
   }
 
   .footer_bottom_container {
-    width: 65%;
+    width: 78%;
     height: 20%;
     flex-direction: row;
     justify-content: space-between;
