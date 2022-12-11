@@ -353,7 +353,10 @@ a:focus-visible {
 }
 
 .back:hover, .back:focus {
+  background-color: var(--color-black);
+  color: #fff;
   outline: none;
+  transition: all .3s ease-in-out;
 }
 
 .back_to_about {

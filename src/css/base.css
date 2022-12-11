@@ -395,6 +395,9 @@ a:focus-visible {
 .back:focus {
 	outline: none;
 	/* stroke: #823725; */
+	background-color: var(--color-black);
+	color: white;
+	transition: all .3s ease-in-out;
 }
 
 .back_to_about{
