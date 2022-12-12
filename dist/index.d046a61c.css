@@ -338,9 +338,9 @@ a:focus-visible {
   border-radius: 100px;
   justify-content: center;
   align-items: center;
-  padding: .7rem 1rem;
+  padding: 1.1rem;
   font-family: Outfit, sans-serif;
-  font-size: .7rem;
+  font-size: 1rem;
   font-weight: 400;
   display: flex;
   position: absolute;
@@ -371,7 +371,7 @@ a:focus-visible {
   justify-content: center;
   align-items: center;
   margin: 0 1.5rem;
-  padding: .7rem 1rem;
+  padding: 1.2rem 1.1rem;
   font-family: Outfit, sans-serif;
   font-size: .7rem;
   font-weight: 400;
@@ -731,9 +731,9 @@ a:focus-visible {
     justify-content: center;
     align-items: center;
     margin: 0 1.5rem;
-    padding: .7rem 1rem;
+    padding: 1.2rem 1.1rem;
     font-family: Outfit, sans-serif;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 400;
     display: flex;
     position: absolute;
@@ -1130,9 +1130,9 @@ a:focus-visible {
     justify-content: center;
     align-items: center;
     margin: 0 1.5rem;
-    padding: 1.2rem 1.1rem;
+    padding: 1.1rem;
     font-family: Outfit, sans-serif;
-    font-size: .85rem;
+    font-size: 1.1rem;
     font-weight: 400;
     transition: all .3s ease-in-out;
     display: flex;
