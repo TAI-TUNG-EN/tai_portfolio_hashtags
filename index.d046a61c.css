@@ -770,12 +770,13 @@ a:focus-visible {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-top: -5rem;
+    margin-bottom: 12rem;
     display: flex;
   }
 
   .footer_title_container {
-    width: 75%;
+    width: 80%;
     height: 100%;
     flex-direction: column;
     margin-top: 3rem;
@@ -788,14 +789,14 @@ a:focus-visible {
     text-align: left;
     flex-direction: row;
     font-family: Outfit, sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
-    line-height: 2.5rem;
+    line-height: 4rem;
     display: flex;
   }
 
   .footer_nav_container {
-    width: 75%;
+    width: 80%;
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
@@ -823,6 +824,9 @@ a:focus-visible {
     margin-top: 2rem;
     font-size: .9rem;
     text-decoration: underline;
+    position: absolute;
+    bottom: 3vh;
+    right: 10vw;
   }
 
   .footer_nav_prop:hover {
@@ -832,7 +836,7 @@ a:focus-visible {
   }
 
   .footer_divider {
-    width: 75%;
+    width: 80%;
     border-bottom: 1px solid #858a8b;
   }
 
@@ -842,7 +846,7 @@ a:focus-visible {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 0;
     display: flex;
   }
 
@@ -855,10 +859,13 @@ a:focus-visible {
     font-size: .7rem;
     font-weight: 400;
     line-height: 18px;
+    position: absolute;
+    bottom: 3vh;
+    left: 10vw;
   }
 
   .footer_author_container {
-    width: 75%;
+    width: 80%;
     flex-direction: column;
     display: flex;
   }
@@ -1226,6 +1233,7 @@ a:focus-visible {
   }
 
   .footer_nav_prop:nth-child(4) {
+    position: unset;
     margin-top: 7rem;
     font-size: 1.2rem;
     text-decoration: underline;
@@ -1257,6 +1265,7 @@ a:focus-visible {
     text-align: left;
     color: #858a8b;
     width: 70%;
+    position: unset;
     margin: .5rem 0;
     font-family: Outfit, sans-serif;
     font-size: 14px;
