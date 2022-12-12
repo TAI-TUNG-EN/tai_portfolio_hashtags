@@ -810,14 +810,14 @@ a:focus-visible {
     letter-spacing: 0;
     text-align: left;
     font-family: Outfit, sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 30px;
     transition: all .3s ease-in-out;
   }
 
   .footer_nav_prop:nth-child(2) {
-    font-size: .7rem;
+    font-size: 1rem;
   }
 
   .footer_nav_prop:nth-child(4) {
