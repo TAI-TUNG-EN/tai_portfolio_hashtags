@@ -1176,7 +1176,7 @@ a:focus-visible {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 5.5rem;
     display: flex;
   }
 
@@ -1194,13 +1194,13 @@ a:focus-visible {
     text-align: left;
     white-space: nowrap;
     font-family: Outfit, sans-serif;
-    font-size: 4.3rem;
+    font-size: 4.5rem;
     font-weight: 300;
     line-height: 5.5rem;
   }
 
   .footer_nav_container {
-    width: 32%;
+    width: 30%;
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
@@ -1248,7 +1248,7 @@ a:focus-visible {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
   }
 
@@ -1257,6 +1257,7 @@ a:focus-visible {
     text-align: left;
     color: #858a8b;
     width: 70%;
+    margin: .5rem 0;
     font-family: Outfit, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -1274,11 +1275,13 @@ a:focus-visible {
     text-align: left;
     color: #858a8b;
     flex-direction: column;
-    margin-top: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: .5rem 0;
     font-family: Outfit, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1rem;
     display: flex;
   }
 
