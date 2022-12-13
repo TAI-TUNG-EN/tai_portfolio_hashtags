@@ -121,7 +121,7 @@ a:focus-visible {
   transform-origin: 0%;
   will-change: transform;
   padding-bottom: .35rem;
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
 .oh {
@@ -338,9 +338,9 @@ a:focus-visible {
   border-radius: 100px;
   justify-content: center;
   align-items: center;
-  padding: 1.1rem;
+  padding: 1.1rem 1.4rem;
   font-family: Outfit, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   display: flex;
   position: absolute;
@@ -526,7 +526,7 @@ a:focus-visible {
     width: 100%;
     height: 100vh;
     z-index: 101;
-    background-image: url("footer_bg.013321e2.svg");
+    background-image: url("footer_bg.56dff063.png");
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -777,7 +777,7 @@ a:focus-visible {
     width: 100%;
     height: 100vh;
     z-index: 101;
-    background-image: url("footer_bg.013321e2.svg");
+    background-image: url("footer_bg.56dff063.png");
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -1158,7 +1158,7 @@ a:focus-visible {
     justify-content: center;
     align-items: center;
     margin: 0 1.5rem;
-    padding: 1.1rem;
+    padding: 1.1rem 1.4rem;
     font-family: Outfit, sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
@@ -1190,7 +1190,7 @@ a:focus-visible {
     width: 100%;
     height: 100vh;
     z-index: 101;
-    background-image: url("footer_bg.013321e2.svg");
+    background-image: url("footer_bg.56dff063.png");
     background-size: cover;
     flex-direction: column;
     justify-content: center;
