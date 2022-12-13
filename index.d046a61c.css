@@ -120,8 +120,7 @@ a:focus-visible {
 .line {
   transform-origin: 0%;
   will-change: transform;
-  padding-bottom: .35rem;
-  line-height: 1.8rem;
+  line-height: 1.7rem;
 }
 
 .oh {
